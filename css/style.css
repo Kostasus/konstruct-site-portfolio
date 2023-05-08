@@ -584,6 +584,10 @@ a {
     flex-wrap: wrap;
   }
 
+  .menu li {
+    margin-bottom: 5px;
+  }
+
   .about__grid-box {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -607,12 +611,21 @@ a {
     width: 100%
   }
 
+  .newsletter__flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .h2_newsletter {
     padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .from_newsletter {
+    align-items: center;
   }
 
   .input_newsletter {
-    width: 100%;
     padding-left: 0;
   }
 }
@@ -620,5 +633,9 @@ a {
 @media screen and (max-width: 400px) {
   .under_logo {
     margin-bottom: 150px;
+  }
+
+  .footer__flex-links {
+    margin-right: 0;
   }
 }
