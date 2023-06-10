@@ -614,6 +614,7 @@ a {
   .newsletter__flex {
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 15px;
   }
 
   .h2_newsletter {
